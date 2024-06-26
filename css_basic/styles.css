@@ -1,0 +1,29 @@
+body, main {
+    display: flex;
+}
+body {
+    flex-direction: column;
+}
+main {
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+   overflow-y: auto;
+}
+header ul li a {
+    color: red; 
+}
+h1 {
+    background-color: blue;
+    color: white;
+}
+aside {
+    background-color: aqua;
+}
+
